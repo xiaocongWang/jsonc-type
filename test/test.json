@@ -1,12 +1,13 @@
-// 测试接口1
-// 测试接口2 
 {
     "name": {
-        "firstName":"222",
+        "firstName":"11111",
         // dsdsd
         // 测试2
-        "secondName": "11111",
-        "array": [1,"dsdsd"]
+        "secondName": {
+            "a": "a",
+            "b": "b"
+        }
     },
+    "array": [[1, 2, { "dsds": 11}, { "dddd": 3232 }],"dsdsd"],
     "age": 13
 }

@@ -1,6 +1,6 @@
 import { PrimitiveType } from 'dts-dom';
 
-enum NODE_TYPE {
+export enum NODE_TYPE {
     /**
      * 对象
      */
@@ -87,7 +87,7 @@ function getJsDocComment(comment: string): string[] {
 }
 
 /**
- * 处理注释 -- // 注释 -> 注释
+ * 处理注释
  */
 export function formatComment(comments: string[]): string {
     let formatedComment = [];
