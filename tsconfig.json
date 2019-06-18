@@ -10,7 +10,7 @@
         "emitDecoratorMetadata": true,
         "allowJs": false,
         "pretty": true,
-        "noEmitOnError": false,
+        "noEmitOnError": true,
         "noUnusedLocals": false,
         "noUnusedParameters": false,
         "allowUnreachableCode": false,
@@ -21,15 +21,15 @@
         "skipDefaultLibCheck": true,
         "importHelpers": true,
         "declaration": true,
-        "declarationDir": "./dist",
+        "declarationDir": "./dist/types",
         "outDir": "./dist"
 
     },
     "include": [
-        "lib/**/*.ts",
-        "*.ts"
+        "**/*.ts"
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "test"
     ]
 }
