@@ -1,6 +1,6 @@
 {
   "name": "jsonc-type",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "jsonc to ts interface",
   "scripts": {
     "test": "ts-node test/index.ts",
@@ -10,6 +10,7 @@
   "bin": {
     "jsonc-type": "bin/jsonc.js"
   },
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiaocongWang/jsonc-type.git"
