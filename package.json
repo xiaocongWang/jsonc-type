@@ -1,6 +1,6 @@
 {
   "name": "jsonc-type",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "jsonc to ts interface",
   "scripts": {
     "test": "ts-node test/index.ts",
@@ -30,7 +30,6 @@
     "change-case": "^3.1.0",
     "dts-dom": "^3.3.0",
     "jsonc-parser": "^2.1.0",
-    "typeof-jsonc": "^1.1.10",
     "yargs": "^13.2.4"
   },
   "devDependencies": {
